@@ -24,8 +24,8 @@ Parser/Lexer
 Modify Parser to handle [,] differently, so it can be ExactReconstructed
 
 X Modify exact reconstructor to check comments/ws before reconstructing
-     ! then work exact reconstructor comment/ws logic into the other reconstructors
-        ! - not in the LuaCompat
+     * then work exact reconstructor comment/ws logic into the other reconstructors
+          - not in the LuaCompat
 
 X Port LuaAssemblyTools to c# and use in #lua (SharpLua.LASM)
 
@@ -195,3 +195,4 @@ Class:
  local c = Class:new()
  print(c:DoSomething())
  ]]
+ 
